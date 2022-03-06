@@ -1,15 +1,11 @@
-import React from "react"
-import { View, Text, TextInput } from "react-native"
-import Title from "./Title"
-import Form from "./Form"
-
-export default function Main(){
-    return(
-        <View>
-            <View>
-                <Title/>
-                <Form/>
-            </View>
-        </View>
-    );
+import React from "react";
+import {  View } from "react-native";
+import Form from "../Form";
+ 
+export default function ContextIMC() {
+  return (
+    <View>
+      <Form />
+    </View>
+  );
 }

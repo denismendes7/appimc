@@ -10,6 +10,7 @@ const styles = StyleSheet.create ({
         marginTop:30,
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
+        
 
     },
     form: {
